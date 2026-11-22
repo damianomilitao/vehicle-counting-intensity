@@ -1,0 +1,115 @@
+video,kind,t,h,dt,cls,note,dets,cause,cause_name
+B,FN,52.452,8,1.0,car,timing [car],"[51.31091423102492, 54.87718108566582]",Dp,Detection displaced by more than tau (slow or long vehicle)
+B,FN,95.689,8,1.0,car, [car],"[92.05634628521652, 93.7561557206061, 95.23932277697546, 96.90580261559269]",M,"Merged events (short headway, side by side, occlusion)"
+B,FP,51.31091423102492,8,1.0,,timing,"[51.31091423102492, 54.87718108566582]",Dp,Detection displaced by more than tau (slow or long vehicle)
+B,FP,86.59029241455195,8,1.0,,,"[86.59029241455195, 87.62350991449465]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+olaria_dia,FN,191.213,30,1.5,motorcycle, [motorcycle],"[192.90429042904293, 194.96699669966998]",LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_dia,FN,225.35,30,1.5,car,timing [car],"[221.61716171617164, 226.5676567656766, 228.83663366336634]",Dp,Detection displaced by more than tau (slow or long vehicle)
+olaria_dia,FP,158.25082508250827,30,1.5,,,[158.25082508250827],EX,Camera exposure or slow illumination change
+olaria_dia,FP,194.96699669967,30,1.5,,after TP,"[192.90429042904293, 194.96699669966998, 196.86468646864688]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+olaria_dia,FP,201.73267326732676,30,1.5,,after TP,"[199.75247524752476, 201.73267326732673, 204.20792079207922]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+olaria_dia,FP,205.77557755775575,30,1.5,,after TP,"[204.20792079207922, 205.77557755775578, 207.3019801980198]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+olaria_dia,FP,221.61716171617164,30,1.5,,after TP,"[220.0907590759076, 221.61716171617164]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+olaria_dia,FP,226.5676567656766,30,1.5,,timing,"[226.5676567656766, 228.83663366336634]",Dp,Detection displaced by more than tau (slow or long vehicle)
+olaria_tarde_chuva,FN,180.421,22,0.7,motorcycle, [motorcycle],"[180.1546153846154, 183.55438795986623]",M,"Merged events (short headway, side by side, occlusion)"
+olaria_tarde_chuva,FN,180.904,22,0.7,motorcycle, [motorcycle],"[180.1546153846154, 183.55438795986623]",M,"Merged events (short headway, side by side, occlusion)"
+olaria_tarde_chuva,FP,191.6538461538462,22,0.7,,after TP,"[189.38733110367895, 190.320602006689, 191.6538461538462, 192.45379264214048, 194.88696321070236]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+olaria_tarde_chuva,FP,201.58651505016724,22,0.7,,after TP,"[198.1867424749164, 200.28660200668898, 201.58651505016724, 202.35313043478263, 205.38626086956523]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+olaria_tarde_chuva,FP,230.6845685618729,22,0.7,,after TP,"[228.21806688963213, 230.68456856187294]",RN,"Rain, spray or wet-surface fluctuation without a vehicle"
+olaria_noite,FN,120.693,40,2.0,car, [car],[],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_noite,FN,122.9,40,2.0,car, [car],[],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_noite,FN,124.924,40,2.0,car, [car],[127.98545819397994],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_noite,FN,140.362,40,2.0,motorcycle,timing [motorcycle],"[138.12126421404682, 142.77102341137123]",EX,Camera exposure or slow illumination change
+olaria_noite,FN,251.99,40,2.0,motorcycle, [motorcycle],[],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_noite,FN,252.826,40,2.0,motorcycle, [motorcycle],[],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_noite,FN,256.139,40,2.0,car, [car],[257.9780066889632],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_noite,FN,288.62,40,2.0,car, [car],[292.4330568561873],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+olaria_noite,FP,142.77102341137123,40,2.0,,timing,"[142.77102341137123, 145.8485618729097]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,154.37869565217392,40,2.0,,after TP,"[151.56876923076925, 154.37869565217392, 156.51959197324416]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,156.51959197324416,40,2.0,,,"[154.37869565217392, 156.51959197324416, 159.12880936454852]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,159.12880936454852,40,2.0,,,"[156.51959197324416, 159.12880936454852, 161.13589966555185]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,161.13589966555185,40,2.0,,,"[159.12880936454852, 161.13589966555185, 163.34369899665552]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,163.34369899665552,40,2.0,,,"[161.13589966555185, 163.34369899665552, 165.95291638795987]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,165.95291638795987,40,2.0,,,"[163.34369899665552, 165.95291638795987, 169.06390635451507]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,169.06390635451507,40,2.0,,,"[165.95291638795987, 169.06390635451507, 172.74357190635453]",EX,Camera exposure or slow illumination change
+olaria_noite,FP,172.74357190635453,40,2.0,,,"[169.06390635451507, 172.74357190635453]",HL,"Headlight reflections (night, rain)"
+olaria_noite,FP,182.04309030100336,40,2.0,,,"[182.04309030100336, 185.12062876254183]",HL,"Headlight reflections (night, rain)"
+olaria_noite,FP,185.12062876254183,40,2.0,,,"[182.04309030100336, 185.12062876254183, 188.56613377926422]",HL,"Headlight reflections (night, rain)"
+olaria_noite,FP,188.56613377926425,40,2.0,,,"[185.12062876254183, 188.56613377926422]",HL,"Headlight reflections (night, rain)"
+raul_tarde_chuva,FN,123.674,30,1.0,car, [car],"[120.22172575250836, 126.45964548494983]",LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+raul_tarde_chuva,FN,132.631,30,1.0,bus_truck,timing [bus_truck],"[128.8280535117057, 131.59675585284282, 133.6649431438127, 136.06670903010033]",Dp,Detection displaced by more than tau (slow or long vehicle)
+raul_tarde_chuva,FN,247.082,30,1.0,motorcycle, [motorcycle],"[244.6131839464883, 250.38409364548494]",LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+raul_tarde_chuva,FN,252.352,30,1.0,other, [other],"[250.38409364548494, 252.71914381270904]",M,"Merged events (short headway, side by side, occlusion)"
+raul_tarde_chuva,FN,270.882,30,1.0,car, [car],"[269.0311371237458, 274.0681739130435]",LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+raul_tarde_chuva,FP,131.59675585284282,30,1.0,,timing,"[128.8280535117057, 131.59675585284282, 133.6649431438127]",Dp,Detection displaced by more than tau (slow or long vehicle)
+raul_tarde_chuva,FP,133.6649431438127,30,1.0,,timing,"[131.59675585284282, 133.6649431438127, 136.06670903010033, 137.06744481605352]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+raul_tarde_chuva,FP,136.06670903010033,30,1.0,,,"[133.6649431438127, 136.06670903010033, 137.06744481605352]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+raul_tarde_chuva,FP,140.30315719063546,30,1.0,,,"[137.06744481605352, 140.30315719063546, 141.50404013377926, 143.0385016722408]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,143.0385016722408,30,1.0,,after TP,"[140.30315719063546, 141.50404013377926, 143.0385016722408, 144.6396789297659, 146.14078260869564]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,144.6396789297659,30,1.0,,,"[141.50404013377926, 143.0385016722408, 144.6396789297659, 146.14078260869564, 148.07553846153846]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,146.14078260869564,30,1.0,,,"[143.0385016722408, 144.6396789297659, 146.14078260869564, 148.07553846153846, 149.64335785953176]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,148.07553846153846,30,1.0,,,"[144.6396789297659, 146.14078260869564, 148.07553846153846, 149.64335785953176, 150.71080936454848]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,149.64335785953176,30,1.0,,,"[146.14078260869564, 148.07553846153846, 149.64335785953176, 150.71080936454848, 152.6455652173913]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,150.71080936454848,30,1.0,,,"[148.07553846153846, 149.64335785953176, 150.71080936454848, 152.6455652173913, 153.7463745819398]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,152.6455652173913,30,1.0,,,"[149.64335785953176, 150.71080936454848, 152.6455652173913, 153.7463745819398, 155.01397324414717, 156.61515050167225]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,153.7463745819398,30,1.0,,,"[150.71080936454848, 152.6455652173913, 153.7463745819398, 155.01397324414717, 156.61515050167225]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,155.01397324414717,30,1.0,,,"[152.6455652173913, 153.7463745819398, 155.01397324414717, 156.61515050167225, 157.74931772575252, 158.9835585284281]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,156.61515050167225,30,1.0,,,"[152.6455652173913, 153.7463745819398, 155.01397324414717, 156.61515050167225, 157.74931772575252, 158.9835585284281]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,157.74931772575252,30,1.0,,,"[155.01397324414717, 156.61515050167225, 157.74931772575252, 158.9835585284281, 160.95167224080268]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,158.9835585284281,30,1.0,,,"[155.01397324414717, 156.61515050167225, 157.74931772575252, 158.9835585284281, 160.95167224080268, 161.98576588628762]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,160.95167224080268,30,1.0,,,"[157.74931772575252, 158.9835585284281, 160.95167224080268, 161.98576588628762, 163.8204481605351]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,161.98576588628762,30,1.0,,,"[158.9835585284281, 160.95167224080268, 161.98576588628762, 163.8204481605351]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,163.8204481605351,30,1.0,,,"[160.95167224080268, 161.98576588628762, 163.8204481605351, 166.35564548494983, 167.4898127090301]",St,Vehicle stopped on the ROI
+raul_tarde_chuva,FP,167.4898127090301,30,1.0,,after TP,"[163.8204481605351, 166.35564548494983, 167.4898127090301, 168.95755852842808]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+raul_tarde_chuva,FP,171.82633444816054,30,1.0,,after TP,"[168.95755852842808, 171.82633444816054, 174.89525752508362]",HL,"Headlight reflections (night, rain)"
+raul_tarde_chuva,FP,182.13391304347823,30,1.0,,,"[182.13391304347826, 186.07014046822744]",HL,"Headlight reflections (night, rain)"
+raul_tarde_chuva,FP,186.07014046822744,30,1.0,,,"[182.13391304347826, 186.07014046822744, 187.23766555183946]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+raul_tarde_chuva,FP,196.01078260869565,30,1.0,,after TP,"[193.6423745819398, 196.01078260869565, 197.278381270903, 199.1464214046823]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+raul_tarde_chuva,FP,199.1464214046823,30,1.0,,after TP,"[196.01078260869565, 197.278381270903, 199.1464214046823, 200.4473779264214]",HL,"Headlight reflections (night, rain)"
+raul_tarde_chuva,FP,209.02034782608692,30,1.0,,,"[209.02034782608695, 212.08927090301003]",HL,"Headlight reflections (night, rain)"
+raul_tarde_chuva,FP,212.08927090301003,30,1.0,,,"[209.02034782608695, 212.08927090301003]",HL,"Headlight reflections (night, rain)"
+raul_tarde_chuva,FP,218.4939799331104,30,1.0,,,[218.49397993311038],HL,"Headlight reflections (night, rain)"
+raul_tarde_chuva,FP,257.82289632107023,30,1.0,,after TP,"[256.72208695652176, 257.82289632107023, 259.5241471571906]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+raul_noite,FN,218.494,30,1.5,bus_truck, [bus_truck],"[214.78013377926422, 218.125618729097, 220.9023712374582]",M,"Merged events (short headway, side by side, occlusion)"
+raul_noite,FN,244.086,30,1.5,motorcycle, [motorcycle],[242.11274581939801],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+raul_noite,FN,283.513,30,1.5,car, [car],[284.366220735786],M,"Merged events (short headway, side by side, occlusion)"
+raul_noite,FP,124.21785618729098,30,1.5,,after TP,"[121.60837792642141, 124.21785618729098]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,141.0121906354515,30,1.5,,,"[141.0121906354515, 144.8594983277592]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,144.8594983277592,30,1.5,,,"[141.0121906354515, 144.8594983277592, 147.1678829431438]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,147.1678829431438,30,1.5,,,"[144.8594983277592, 147.1678829431438, 149.0748093645485]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,149.0748093645485,30,1.5,,,"[147.1678829431438, 149.0748093645485]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,157.94034448160536,30,1.5,,after TP,"[156.167237458194, 157.94034448160536, 159.64654180602008]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,159.64654180602008,30,1.5,,,"[156.167237458194, 157.94034448160536, 159.64654180602008, 163.5273043478261]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,163.5273043478261,30,1.5,,,"[159.64654180602008, 163.5273043478261, 166.43787625418062]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,166.43787625418062,30,1.5,,,"[163.5273043478261, 166.43787625418062, 169.51572240802676]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,169.51572240802676,30,1.5,,,"[166.43787625418062, 169.51572240802676]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,181.0241906354515,30,1.5,,,"[181.0241906354515, 183.93476254180604]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,183.93476254180604,30,1.5,,,"[181.0241906354515, 183.93476254180604]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,195.37632107023413,30,1.5,,,"[195.37632107023413, 198.08616387959867]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,198.08616387959867,30,1.5,,,"[195.37632107023413, 198.08616387959867]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,214.78013377926425,30,1.5,,,"[211.90301672240804, 214.78013377926422, 218.125618729097]",HL,"Headlight reflections (night, rain)"
+raul_noite,FP,223.51184949832776,30,1.5,,after TP,"[220.9023712374582, 223.51184949832776]",Adj,Vehicle in the adjacent lane or partly over the ROI
+raul_noite,FP,271.7537424749164,30,1.5,,,[271.7537424749164],Adj,Vehicle in the adjacent lane or partly over the ROI
+raul_noite,FP,297.3467023411372,30,1.5,,,"[294.0346722408027, 297.34670234113713]",Adj,Vehicle in the adjacent lane or partly over the ROI
+S1,FN,134.258,22,1.0,motorcycle, [motorcycle],"[133.21146310102762, 137.06295732016483, 138.20165995886626]",M,"Merged events (short headway, side by side, occlusion)"
+S1,FN,146.072,22,1.0,car, [car],[],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+S1,FN,171.065,22,1.0,car, [car],[168.2098236140569],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+S1,FN,173.434,22,1.0,car, [car],[],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+S1,FN,237.227,22,1.0,car,timing [car],"[235.17558614592483, 238.55820280794967, 239.68015981961136]",Dp,Detection displaced by more than tau (slow or long vehicle)
+S1,FN,250.464,22,1.0,car, [car],[],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+S1,FP,203.1914385000464,22,1.0,,,[203.19143850004642],Adj,Vehicle in the adjacent lane or partly over the ROI
+S1,FP,238.55820280794967,22,1.0,,timing,"[235.17558614592483, 238.55820280794967, 239.68015981961136, 241.33797689654432]",Dp,Detection displaced by more than tau (slow or long vehicle)
+S2,FN,134.191,12,1.0,bus_truck, [bus_truck],"[130.44309624456858, 134.6743366232154, 135.77964023233127]",M,"Merged events (short headway, side by side, occlusion)"
+S2,FN,170.873,12,1.0,car, [car],"[167.1253597721025, 170.16494469717122]",LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+S2,FN,172.064,12,1.0,car, [car],[170.16494469717122],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+S2,FN,230.136,12,1.0,motorcycle, [motorcycle],[232.8218430389288],LC,"Low contrast (dark or white vehicle on wet pavement, motorcycle, night)"
+S2,FP,115.0206568236233,12,1.0,,,[115.0206568236233],RN,"Rain, spray or wet-surface fluctuation without a vehicle"
+S2,FP,119.23462683337766,12,1.0,,,[119.23462683337766],RN,"Rain, spray or wet-surface fluctuation without a vehicle"
+S2,FP,124.00124864768998,12,1.0,,,[124.00124864768998],RN,"Rain, spray or wet-surface fluctuation without a vehicle"
+S2,FP,144.84658390086014,12,1.0,,,"[144.84658390086014, 147.5580318169726]",RN,"Rain, spray or wet-surface fluctuation without a vehicle"
+S2,FP,159.42277524607607,12,1.0,,,"[159.42277524607607, 160.47626774851466, 162.2205750066507, 163.36041935355146]",HL,"Headlight reflections (night, rain)"
+S2,FP,160.47626774851466,12,1.0,,,"[159.42277524607607, 160.47626774851466, 162.2205750066507, 163.36041935355146]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+S2,FP,166.0545969007715,12,1.0,,after TP,"[162.2205750066507, 163.36041935355146, 164.7765896027312, 166.0545969007715, 167.1253597721025]",S,"One vehicle producing two peaks (large, long or slow vehicle)"
+S2,FP,202.84048264166,12,1.0,,,[202.84048264166],Adj,Vehicle in the adjacent lane or partly over the ROI
+S2,FP,222.96046240134783,12,1.0,,,"[219.50638862286067, 222.96046240134785]",RN,"Rain, spray or wet-surface fluctuation without a vehicle"
+S2,FP,238.62468698678725,12,1.0,,after TP,"[235.4296687416866, 237.62300559102596, 238.62468698678725, 239.62636838254855, 241.4397571162543]",HL,"Headlight reflections (night, rain)"

@@ -1,0 +1,79 @@
+case,recording,frame_annotator_A,frame_annotator_B,situation,decision,class
+1,A,7,25,class disagreement,accepted,car
+2,B,-1,139,marked only by annotator B,rejected,
+3,B,509,493,class disagreement,accepted,motorcycle
+4,B,-1,895,marked only by annotator B,accepted,car
+5,B,1008,1009,class disagreement,"accepted, two vehicles",motorcycle+car
+6,B,-1,1719,marked only by annotator B,rejected,
+7,B,1949,1918,class disagreement,accepted,bus_truck
+8,B,2676,2655,class disagreement,accepted,motorcycle
+9,B,-1,3024,marked only by annotator B,rejected,
+10,B,-1,3499,marked only by annotator B,accepted,motorcycle
+11,B,5742,-1,marked only by annotator A,accepted,car
+12,B,6798,-1,marked only by annotator A,rejected,
+13,olaria_dia,-1,686,marked only by annotator B,accepted,car
+14,olaria_dia,862,-1,marked only by annotator A,accepted,car
+15,olaria_dia,3305,-1,marked only by annotator A,rejected,
+16,olaria_dia,-1,4635,marked only by annotator B,accepted,motorcycle
+17,olaria_dia,4741,-1,marked only by annotator A,rejected,
+18,olaria_dia,-1,4783,marked only by annotator B,accepted,car
+19,olaria_dia,5026,5043,class disagreement,accepted,car
+20,olaria_dia,5630,5619,class disagreement,accepted,motorcycle
+21,olaria_dia,-1,5661,marked only by annotator B,accepted,car
+22,olaria_dia,5947,5943,class disagreement,accepted,motorcycle
+23,olaria_dia,6260,-1,marked only by annotator A,rejected,
+24,olaria_noite,249,-1,marked only by annotator A,rejected,
+25,olaria_noite,7886,-1,marked only by annotator A,rejected,
+26,olaria_tarde_chuva,1272,-1,marked only by annotator A,accepted,car
+27,olaria_tarde_chuva,1486,-1,marked only by annotator A,rejected,
+28,olaria_tarde_chuva,1918,1958,class disagreement,"accepted, two vehicles",car+motorcycle
+29,olaria_tarde_chuva,-1,2007,marked only by annotator B,accepted,car
+30,olaria_tarde_chuva,5399,5413,class disagreement,"accepted, two vehicles",car+motorcycle
+31,olaria_tarde_chuva,5461,5511,class disagreement,accepted,car
+32,olaria_tarde_chuva,5613,-1,marked only by annotator A,accepted,car
+33,olaria_tarde_chuva,5937,-1,marked only by annotator A,accepted,car
+34,olaria_tarde_chuva,-1,6844,marked only by annotator B,accepted,car
+35,olaria_tarde_chuva,-1,8288,marked only by annotator B,accepted,other
+36,raul_noite,4667,-1,marked only by annotator A,accepted,bus_truck
+37,raul_noite,4722,-1,marked only by annotator A,rejected,
+38,raul_noite,-1,6531,marked only by annotator B,accepted,bus_truck
+39,raul_noite,-1,7533,marked only by annotator B,accepted,motorcycle
+40,raul_noite,8486,-1,marked only by annotator A,accepted,car
+41,raul_noite,8780,8790,class disagreement,accepted,bus_truck
+42,raul_tarde_chuva,764,730,class disagreement,"accepted, two vehicles",motorcycle+car
+43,raul_tarde_chuva,-1,2249,marked only by annotator B,accepted,motorcycle
+44,raul_tarde_chuva,3887,-1,marked only by annotator A,rejected,
+45,raul_tarde_chuva,-1,3976,marked only by annotator B,accepted,bus_truck
+46,raul_tarde_chuva,5803,5806,class disagreement,accepted,motorcycle
+47,raul_tarde_chuva,-1,6021,marked only by annotator B,accepted,car
+48,raul_tarde_chuva,7334,7336,class disagreement,accepted,motorcycle
+49,raul_tarde_chuva,-1,7565,marked only by annotator B,accepted,other
+50,raul_tarde_chuva,8446,-1,marked only by annotator A,rejected,
+51,S1,5280,-1,marked only by annotator A,accepted,car
+52,S1,10137,-1,marked only by annotator A,rejected,
+53,S1,-1,10357,marked only by annotator B,accepted,car
+54,S1,10479,-1,marked only by annotator A,rejected,
+55,S1,-1,10989,marked only by annotator B,accepted,car
+56,S1,12112,-1,marked only by annotator A,rejected,
+57,S1,-1,12777,marked only by annotator B,accepted,car
+58,S1,13483,-1,marked only by annotator A,rejected,
+59,S1,-1,13754,marked only by annotator B,accepted,motorcycle
+60,S1,-1,14413,marked only by annotator B,accepted,car
+61,S1,15237,-1,marked only by annotator A,rejected,
+62,S2,567,619,class disagreement,accepted,bus_truck
+63,S2,1352,-1,marked only by annotator A,rejected,
+64,S2,1709,-1,marked only by annotator A,rejected,
+65,S2,2420,-1,marked only by annotator A,rejected,
+66,S2,-1,3472,marked only by annotator B,accepted,car
+67,S2,4361,-1,marked only by annotator A,rejected,
+68,S2,5059,-1,marked only by annotator A,accepted,car
+69,S2,7770,7809,class disagreement,"accepted, two vehicles",bus_truck+motorcycle
+70,S2,-1,7873,marked only by annotator B,accepted,motorcycle
+71,S2,9720,-1,marked only by annotator A,rejected,
+72,S2,9894,-1,marked only by annotator A,accepted,car
+73,S2,10054,-1,marked only by annotator A,rejected,
+74,S2,-1,10605,marked only by annotator B,accepted,car
+75,S2,-1,11270,marked only by annotator B,accepted,car
+76,S2,11490,-1,marked only by annotator A,rejected,
+77,S2,11759,-1,marked only by annotator A,rejected,
+78,S2,-1,13745,marked only by annotator B,accepted,car

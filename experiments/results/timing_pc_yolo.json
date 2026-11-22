@@ -1,0 +1,68 @@
+{
+ "hardware": {
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "machine": "AMD64",
+  "cpu": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+  "cores_physical": 4,
+  "cores_logical": 8,
+  "ram_gb": 7.9,
+  "cpu_freq_max_mhz": 1800.0,
+  "cv2": "5.0.0",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "torch": "2.15.0+cpu",
+  "ultralytics": "8.4.216"
+ },
+ "results": [
+  {
+   "video": "olaria_noite",
+   "method": "yolo",
+   "w": 640,
+   "R": 3,
+   "fps_video": 29.894021195760846,
+   "clip_s": 30.0,
+   "frames_processed": 299,
+   "proc_w": 640,
+   "proc_h": 360,
+   "time_all_s": [
+    38.4269,
+    39.1198,
+    40.7182
+   ],
+   "time_median_s": 39.11975499999244,
+   "time_iqr_s": 1.14567749996786,
+   "time_mean_s": 39.42161166665998,
+   "time_std_s": 1.1751234060052311,
+   "throughput_fps": 7.643197151926381,
+   "realtime_factor": 0.7668759684207072,
+   "tracemalloc_peak_mib": 10.0,
+   "peak_working_set_mib": 505.5
+  },
+  {
+   "video": "B",
+   "method": "yolo",
+   "w": 640,
+   "R": 3,
+   "fps_video": 60.00672656380572,
+   "clip_s": 30.0,
+   "frames_processed": 300,
+   "proc_w": 640,
+   "proc_h": 361,
+   "time_all_s": [
+    38.8163,
+    41.4084,
+    41.4531
+   ],
+   "time_median_s": 41.4083505999879,
+   "time_iqr_s": 1.3183578999887686,
+   "time_mean_s": 40.55924880000142,
+   "time_std_s": 1.5095687968814164,
+   "throughput_fps": 7.244915473645736,
+   "realtime_factor": 0.7244915473645736,
+   "tracemalloc_peak_mib": 7.4,
+   "peak_working_set_mib": 451.6
+  }
+ ],
+ "errors": []
+}
