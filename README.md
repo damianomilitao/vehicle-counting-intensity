@@ -1,5 +1,7 @@
 # Temporal image-intensity vehicle counting: code, data and results
 
+Archived version: https://doi.org/10.5281/zenodo.24434282
+
 Code, annotations, extracted signals and results of the article
 
 F. S. Rodrigues, J. S. Dominguez, R. Fabbri, J. T. de Assis and D. S. Militão,
@@ -86,7 +88,7 @@ python experiments/timing/medir_tempo.py
 
 ## Data availability
 
-The smartphone recordings (A, B, H, I) are deposited in the Zenodo archive of this repository with restricted access, because they show licence plates and passers-by; access is granted upon request for research use. The surveillance-camera
+The smartphone recordings (A, B, H, I) are deposited on Zenodo in a separate record with restricted access, because they show licence plates and passers-by; access is granted upon request for research use. The surveillance-camera
 recordings (C–G and the dusk recording) were made from the public live streams of the Programa Nova Friburgo Cidade Inteligente
 (https://nfci.pmnf.rj.gov.br/camerasaovivo.html). Their use is authorized by the Central de Monitoramento
 (Prefeitura Municipal de Nova Friburgo, Ofício SESOP No. 000078/2026) exclusively for academic research,
