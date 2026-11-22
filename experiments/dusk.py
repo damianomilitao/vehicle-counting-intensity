@@ -3,7 +3,7 @@ import os
 
 extract : ROI mean gray level and frame difference at 1280x720 (INTER_AREA), with the decoded
           timestamp of every frame (this stream has short gaps, so times come from the timestamps).
-evaluate: global, centred moving and causal median baselines of the proposed counter and frame
+evaluate: global, centered moving and causal median baselines of the proposed counter and frame
           differencing on the two annotated intervals (before and after sunset),
           calibration on the first 40 %, test on the remaining 60 % (same protocol as the paper).
 Ground truth: gt/olaria_transicao[2]_A.csv and _B.csv (two annotators; frame indices are exact)

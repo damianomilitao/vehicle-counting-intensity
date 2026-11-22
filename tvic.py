@@ -7,7 +7,7 @@ Reference implementation used in the revised manuscript
 Pipeline (one pass, streaming; no intermediate .npy is required):
     decode frame -> resize (documented interpolation / aspect policy) -> BGR->gray (uint8)
     -> mean intensity inside polygonal ROI  I(t)
-    -> baseline B(t): global median (offline) | centred moving median | causal moving median
+    -> baseline B(t): global median (offline) | centered moving median | causal moving median
     -> D(t) = |I(t) - B(t)|
     -> scipy.signal.find_peaks(D, height=h, distance=d_frames)
 
@@ -361,7 +361,7 @@ def baseline(I: np.ndarray, fps: float, p: Params) -> np.ndarray:
     if p.baseline == "global_median":
         return np.full_like(I, np.median(I))
     win = max(3, int(round(p.baseline_win_s * fps)) | 1)
-    if p.baseline == "moving_median":          # centred, non-causal
+    if p.baseline == "moving_median":          # centered, non-causal
         return median_filter(I, size=win, mode="nearest")
     if p.baseline == "causal_median":          # uses only past samples -> online-compatible
         out = np.empty_like(I)

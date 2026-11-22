@@ -2,7 +2,7 @@
 
 For each example the frame at the error time is cropped around the ROI and pixelated
 (about 70 blocks across the crop, at least 3 pixels of the original frame per block) so
-that licence plates and faces cannot be read; the ROI outline is drawn afterwards. The right panel shows D(t) (global median,
+that license plates and faces cannot be read; the ROI outline is drawn afterwards. The right panel shows D(t) (global median,
 full resolution) over +-4 s with the threshold h, the reference events and the detections.
 Usage: python fail_examples.py   (paths as in common.py / core.py)
 """

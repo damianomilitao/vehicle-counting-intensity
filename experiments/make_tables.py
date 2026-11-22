@@ -53,7 +53,7 @@ def tget(v,mth,w=None):
     for r in tim:
         if r['video']==v and r['method']==mth and (w is None or r['proc_w']==w): return r
     return None
-NAME={'proposed_global':'Proposed, global median','proposed_moving':'Proposed, centred moving median','proposed_causal':'Proposed, causal median','framediff':'Frame differencing','mog2':'MOG2 virtual loop','yolo':'YOLOv8n + ByteTrack$^\\dagger$'}
+NAME={'proposed_global':'Proposed, global median','proposed_moving':'Proposed, centered moving median','proposed_causal':'Proposed, causal median','framediff':'Frame differencing','mog2':'MOG2 virtual loop','yolo':'YOLOv8n + ByteTrack$^\\dagger$'}
 TM={'proposed_global':'proposed_global','proposed_moving':None,'proposed_causal':'proposed_causal','framediff':'framediff','mog2':'mog2','yolo':'yolo'}
 L=[]
 for k in ['proposed_global','proposed_moving','proposed_causal','framediff','mog2','yolo']:
@@ -205,7 +205,7 @@ L.append(f"Pooled, re-tuned & {p.loc['proposed_global'].F1:.2f} & " + ' & '.join
 L += ['\\bottomrule', '\\end{tabular}']
 open(T2 + 'tableS3_roi.tex', 'w').write('\n'.join(L))
 
-L = ['\\begin{tabular}{lccc}', '\\toprule', 'Video & global median & centred moving median & causal median\\\\', '\\midrule']
+L = ['\\begin{tabular}{lccc}', '\\toprule', 'Video & global median & centered moving median & causal median\\\\', '\\midrule']
 for n in TESTS:
     s = m[m.video == n].set_index('method')
     L.append(f"{LAB[n]} & " + ' & '.join(f"{s.loc[k].F1:.2f} ({s.loc[k].param.replace('(', '').replace(')', '')})"

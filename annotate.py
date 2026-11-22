@@ -8,7 +8,7 @@ annotate.py - manual event annotation and ROI definition (OpenCV GUI).
 2) Annotate vehicle passages (independently by each annotator, without seeing detector output):
     python annotate.py events --video videoB.mp4 --roi rois/videoB_roi.json \
                               --annotator A --out gt/videoB_A.csv
-   Mark the frame in which the vehicle body is centred over the ROI (maximum ROI coverage);
+   Mark the frame in which the vehicle body is centered over the ROI (maximum ROI coverage);
    this is the instant that corresponds to the intensity peak (protocol, see README).
    Keys:  v = car   m = motorcycle   t = bus/truck   o = other (bicycle, pedestrian...)
           space = pause/play   a / d = 1 frame back / forward   A / D = 1 s back / forward
