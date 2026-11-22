@@ -19,6 +19,7 @@ virtual loop and YOLOv8n + ByteTrack on the same ROIs and against an adjudicated
 - `evaluation.py`: event lists and one-to-one matching.
 - `annotate.py`, `estabilizar.py`, `*.bat`: annotation tool (ROI drawing, event marking) and camera-motion estimation, with Windows shortcuts.
 - `experiments/`: every script and data file used for the results of the article (below).
+- `original_code/`: processing script of the original submission (Listing 1 of its Supporting Information), kept unchanged for reference.
 
 ### `experiments/`
 
