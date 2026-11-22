@@ -1,0 +1,40 @@
+{
+  "title": "Temporal image-intensity vehicle counting: code, annotations, signals and results",
+  "upload_type": "software",
+  "description": "Code, ROI polygons, event lists of two annotators with adjudication, extracted ROI signals, detections and all raw results of the article \"Temporal Image-Intensity Analysis for Low-Cost Vehicle Counting: Event-Level Evaluation and Sensitivity to Spatial Resolution\" (IEEE Access, under review). The surveillance-camera recordings are not included (see README).",
+  "creators": [
+    {
+      "name": "Rodrigues, Felipe Schott",
+      "affiliation": "Universidade do Estado do Rio de Janeiro, Instituto Politécnico"
+    },
+    {
+      "name": "Dominguez, Joel Sanchez",
+      "affiliation": "Universidade do Estado do Rio de Janeiro, Instituto Politécnico"
+    },
+    {
+      "name": "Fabbri, Ricardo",
+      "affiliation": "Universidade do Estado do Rio de Janeiro, Instituto Politécnico"
+    },
+    {
+      "name": "de Assis, Joaquim Teixeira",
+      "affiliation": "Universidade do Estado do Rio de Janeiro, Instituto Politécnico"
+    },
+    {
+      "name": "Militão, Damiano da Silva",
+      "affiliation": "Universidade do Estado do Rio de Janeiro, Instituto Politécnico",
+      "orcid": "0000-0002-3759-0273"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vehicle counting",
+    "virtual loop detector",
+    "temporal intensity signal",
+    "region of interest",
+    "background subtraction",
+    "event-level evaluation",
+    "spatial resolution",
+    "intelligent transportation systems"
+  ],
+  "access_right": "open"
+}
