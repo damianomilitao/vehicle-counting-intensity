@@ -96,3 +96,7 @@ and their redistribution to third parties without prior authorization is not all
 extracted signals, detections and results are included, so every number of the article can be recomputed
 without them. Image credit: Central de Monitoramento – Programa Nova Friburgo Cidade Inteligente,
 Prefeitura Municipal de Nova Friburgo.
+
+## License
+
+The code and the released data files are distributed under the MIT License (see `LICENSE`).
